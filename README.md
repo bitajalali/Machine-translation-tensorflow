@@ -3,6 +3,7 @@
 In this project, we have produced a model for machine translation using an encoder-decoder structure including LSTM and GRU recurrent neural networks.
 The figure below shows the structure of the encoder-decoder framework:
 ![Capture1](https://user-images.githubusercontent.com/115353236/200183144-4fb78f5f-93a8-44ed-8c12-c9658ec7e700.PNG)
+
 You can download the used data set from this [link](http://www.manythings.org/anki/deu-eng.zip).<br> In this dataset, there are 200,519 pairs of English sentences
 and their German equivalents. 
 We have divided this data set into training and test data sets after loading using TensorFlow tools.
