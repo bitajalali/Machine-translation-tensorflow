@@ -15,7 +15,7 @@ of the next word at each time step. Note that the word with the highest probabil
 We have used the BLEU score to evaluate the model. This method, which is implemented in the nltk library, takes the reference sentences in the dataset and the sentence 
 produced by the decoder and calculates the similarity of the input sentence to the reference sentences. We have used the following command to calculate this score:
 
-BLEU_score = nltk.translate.bleu_score.sentence_bleu([references], hypothesis)
+### BLEU_score = nltk.translate.bleu_score.sentence_bleu([references], hypothesis)
 
 In this project, we have trained the model once without using the embedding layer, i.e. by inputting one-hot vector directly to the model and once using the embedding 
 layer provided by TensorFlow libraries. We also trained the encoder and decoder models once using the LSTM unit and once using the GRU unit. 
